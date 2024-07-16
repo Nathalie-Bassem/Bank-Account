@@ -46,7 +46,6 @@ public class BankAccount
 
     public decimal Balance
     {
-        get { return _balance; }
         set
         {
             if (value < 0)
