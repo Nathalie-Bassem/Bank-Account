@@ -155,7 +155,7 @@ internal class JointAccount
             
             jointAccount[0].Deposit(50);
             jointAccount[1].Withdraw(50);
-            jointAccount[2].Withdraw(1500); 
+            jointAccount[2].Withdraw(1000); 
 
             
             for (int i = 0; i < 3; i++)
