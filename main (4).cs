@@ -77,7 +77,7 @@ public class BankAccount
 
     public void Withdraw(decimal amount)
     {
-        if (amount > MaxWithdrawable)
+        if (amount > MaxWithdrawable + _balance)
         {
             Log("Rejected: Withdrawal amount exceeds limit");
         }
