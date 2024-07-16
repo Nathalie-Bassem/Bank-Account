@@ -175,7 +175,6 @@ internal class JointAccount
         catch (Exception ex)
         {
             Console.WriteLine($"An error occurred: {ex.Message}");
-            Console.WriteLine(ex.StackTrace);
         }
     }
 }
